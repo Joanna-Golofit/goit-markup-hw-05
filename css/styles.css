@@ -573,7 +573,7 @@ img {
 
 .wrapper {
   position: relative;
-  z-index: 2;
+  z-index: 3;
   background-color: var(--white-color);
   border: 1px solid #eee;
 }
