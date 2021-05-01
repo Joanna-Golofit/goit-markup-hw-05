@@ -548,7 +548,7 @@ img {
   height: 294px;
   padding-left: 24px;
   padding-right: 45px;
-  transform: translateY(294px);
+  transform: translateY(295px);
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
   /* cubic-bezier(0.4, 0, 0.2, 1); */
 }
@@ -572,6 +572,9 @@ img {
 }
 
 .wrapper {
+  position: relative;
+  z-index: 2;
+  background-color: var(--white-color);
   border: 1px solid #eee;
 }
 
