@@ -509,10 +509,17 @@ img {
   height: 100%;
   left: 0;
   top: 0; 
-  z-index: 5;
+  /* z-index: 5; */
   /* right: 0;
   bottom: 0;  */
   /* transition; */
+}
+
+
+
+/* gdzie moj guzik? */
+.x-icon {
+  fill: red;
 }
 
 .modal {
@@ -538,7 +545,6 @@ img {
   border: 1px solid rgba(0, 0, 0, 0.1); 
   border-radius: 50%;
   cursor: pointer;
-  /* nie uzyjecie 1:1 bo musicie svg zrobic a nie x */
 }
 
 .is-hidden {
@@ -546,6 +552,30 @@ img {
   visibility: hidden;
   /* pointer-events: none; */
 }
+
+/* @keyframes windowPop {
+  0% {
+    transform: scale(0.4);
+    opacity: 0.4;
+  }
+  80% {
+    transform: scale(0.7);
+    opacity: 0.7;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.windowPop {
+  animation-duration: 1000ms;
+  animation-iteration-count: 1;
+  animation-fill-mode: both;
+  animation-timing-function: ease-in-out;
+  animation-delay: 500ms;
+  animation-name: windowPop;
+} */
 
 /* =======  END Backdrop  ======= */
 

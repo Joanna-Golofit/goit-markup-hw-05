@@ -65,7 +65,7 @@
       <section class="background-hero">
         <div class="container">
           <h1 class="main-header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
-          <button class="order-btn data-modal-open" type="button">Zamów usługę</button>
+          <button class="order-btn" type="button" data-modal-open>Zamów usługę</button>
         </div>
       </section>
       <!-- END HERO  -->
@@ -474,9 +474,12 @@
 
     <!-- Backdrop  -->
     <div class="backdrop is-hidden" data-modal>
-      <div class="modal">
-        <button type="button" class="x-btn" data-modal-close>x
-        </button>
+      <div class="modal windowPop">
+        <button type="button" class="x-btn" data-modal-close>
+          <svg class="x-icon" width="11" height="11">
+            <use href="./images/VectorX.svg"></use>            
+          </svg>
+        </button>         
       </div>
     </div>
     <!-- END Backdrop  -->
@@ -485,4 +488,4 @@
   </body>
 </html>
 
-/* ============================== index ============================= */
+ <!-- ============================== index =============================  -->
