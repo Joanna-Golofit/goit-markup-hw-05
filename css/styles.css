@@ -516,7 +516,7 @@ img {
 .is-hidden {
   /* opacity: 0.5; */
   visibility: hidden;
-  transform: scale(0.95);
+  /* transform: scale(0.95); */
   opacity: 0;
   pointer-events: none;
 }
